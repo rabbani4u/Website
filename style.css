@@ -1,0 +1,198 @@
+/*=========== Layout Section =========*/
+body {
+  background-color: #9c9f84;
+  margin: 0px;
+  font-family: Verdana, Georgia, serif;
+  font-size: 14px;
+}
+#header {
+  background-color: #5c755e;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.main {
+  background-color: #e5e7d4;
+  margin-left: 10px;
+  margin-right: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+}
+.sideright {
+  background-color: #e5e7d4;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+  width: 260px;
+  float: right;
+  clear: right;
+}
+.imagesideber {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 300px;
+  float: right;
+  clear: right;
+  opacity: 1;
+  transition: opacity 1s;
+  height: auto;
+}
+.imagesideber:hover {
+  opacity: 0.5;
+}
+#footer {
+  border-radius: 5px;
+  text-align: center;
+  font-size: 90%;
+  background-color: #5c755e;
+  height: 60px;
+  margin: 10px;
+  clear: both;
+  color: #efe5d0;
+}
+
+#footer ul {
+  text-align: center;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 5px;
+  margin: 10px;
+}
+#footer ul li {
+  display: inline;
+}
+#footer ul li a {
+  text-decoration: none;
+  font-family: arial;
+  padding: 0.2em 1em;
+  color: #efe5d0;
+  background-color: #5c755e;
+}
+#footer ul li a:hover {
+  opacity: 1;
+  color: aliceblue;
+}
+/*========= Nagigation Bar =========*/
+#navber {
+  background-color: #5c755e;
+  margin: 10px;
+  height: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#navber ul {
+  text-align: left;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 9px;
+  background-color: #4caf50;
+}
+#navber ul li {
+  display: inline;
+}
+#navber ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/*========= Heading Section =========*/
+h1 {
+  color: tomato;
+  font-size: 110%;
+}
+h2 {
+  color: #4caf50;
+  font-size: 105%;
+}
+h3 {
+  font-size: 250%;
+  text-align: center;
+  font-family: Century Gothic;
+  margin: 0px;
+  color: #fff;
+  padding: 20px;
+}
+/****************Gallary**************/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.wrap {
+  margin-top: 40px;
+}
+.main-div {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
